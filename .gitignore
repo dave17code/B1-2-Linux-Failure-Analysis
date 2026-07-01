@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+
+# Runtime logs
+logs/*
+!logs/.gitkeep
+
+# Evidence files
+evidence/common/*
+evidence/oom/*
+evidence/cpu/*
+evidence/deadlock/*
+
+!evidence/common/.gitkeep
+!evidence/oom/.gitkeep
+!evidence/cpu/.gitkeep
+!evidence/deadlock/.gitkeep
+
+# Temporary files
+*.tmp
+*.swp
+*.pid
