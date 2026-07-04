@@ -22,7 +22,7 @@ mkdir -p "$EVIDENCE_HOME/cpu"
 mkdir -p "$EVIDENCE_HOME/deadlock"
 
 echo "🔑 테스트용 API Key 파일 생성"
-echo "agent_api_key_test" > "$AGENT_HOME/api_keys/secret.key"
+echo "agent_api_key_test" > "$AGENT_HOME/api_keys/t_secret.key"
 
 echo "📦 실행파일 확인 및 복사"
 if [ -f "$PROJECT_ROOT/bin/agent-leak-app-x86" ]; then
