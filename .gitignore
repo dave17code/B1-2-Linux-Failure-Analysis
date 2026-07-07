@@ -20,3 +20,7 @@ evidence/deadlock/*
 *.tmp
 *.swp
 *.pid
+
+# API Keys
+api_keys/*
+!api_keys/.gitkeep

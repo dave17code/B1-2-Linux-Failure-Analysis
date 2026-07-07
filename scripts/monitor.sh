@@ -1,15 +1,11 @@
 #!/bin/bash
-
 while true; do
   TIME=$(date "+%Y-%m-%d %H:%M:%S")
-  PID=$(pgrep -n -f "agent-leak-app-x86")
-
+  PID=$(pgrep -n -f "agent-leak-app")
   if [ -z "$PID" ]; then
     echo "[$TIME] PROCESS_NOT_FOUND"
   else
-    ps -p "$PID" -o pid=,etime=,%cpu=,%mem=,rss=,vsz=,cmd= |
-    awk -v t="$TIME" '{print "[" t "]", $0}'
+    ps -p "$PID" -o pid=,etime=,%cpu=,%mem=,rss=,vsz=,cmd= | awk -v t="$TIME" '{print "[" t "]", $0}'
   fi
-
-  sleep 3
+  sleep 0.5
 done
