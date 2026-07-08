@@ -63,7 +63,7 @@ OrbStack
   ↓
 Ubuntu Linux
   ↓
-agent-leak-app-x86 실행
+agent-leak-app-x86 혹은 agent-leak-app-arm64 실행
   ↓
 CASE별 장애 재현 및 분석
 ```
