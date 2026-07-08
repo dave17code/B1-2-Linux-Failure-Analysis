@@ -32,7 +32,7 @@
 이번 미션은 하나의 실행파일을 사용합니다.
 
 ```text
-agent-leak-app-x86
+인텔: agent-leak-app-x86 애플 실리콘: agent-leak-app-arm64
         │
         ├── CASE 1: 메모리 제한 환경
         ├── CASE 2: CPU 과점유 환경
