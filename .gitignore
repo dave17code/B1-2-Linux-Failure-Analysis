@@ -24,3 +24,6 @@ evidence/deadlock/*
 # API Keys
 api_keys/*
 !api_keys/.gitkeep
+
+# env
+.env
