@@ -1,8 +1,0 @@
-CPU_MAX_OCCUPY=80
-MULTI_THREAD_ENABLE=false
-AGENT_HOME=/home/dave17code0177/B1-2-Linux-Failure-Analysis
-MEMORY_LIMIT=60
-AGENT_LOG_DIR=/home/dave17code0177/B1-2-Linux-Failure-Analysis/logs
-AGENT_PORT=15034
-AGENT_UPLOAD_DIR=/home/dave17code0177/B1-2-Linux-Failure-Analysis/upload_files
-AGENT_KEY_PATH=/home/dave17code0177/B1-2-Linux-Failure-Analysis/api_keys
